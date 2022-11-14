@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(pink, white, skyblue);
+  height: 100vh;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(136, 125, 125, 0.2);
+  border-radius: 5px;
+  width: 480px;
+  height: 350px;
+  line-height: 40px;
+  padding: 20px;
+}
+.container p{
+  color: darkblue;
+  background-color: aliceblue;
+  font-weight: 900;
+  font-size: 20px;
+  
+}
+#randomWords {
+  margin: 20px;
+  font-size: 30px;
+  color: black;
+  text-shadow: 1px 2px 1px gray;
+  letter-spacing: 5px;
+}
+#userInput > div {
+  margin: 20px 10px 20px 0;
+  background-color: darkblue;
+  width: 15px;
+  padding: 10px;
+  font-size: 20px;
+  color: pink;
+  border-radius: 10px;
+  display: inline-block;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Game hw</title>
+    <link rel="stylesheet" href="typingGame.css">
+</head>
+
+<body onload="randomLetters()">
+    <div class="container">
+        <p>"Type the given letters correctly."</p>
+        <label for="wordCount">Choose letter count:</label>
+        <select name="wordCount" onchange="randomLetters()" id="wordCount">
+            <option value="3">3</option>
+            <option value="6">6</option>
+            <option value="9">9</option>
+        </select>
+        <div id="randomWords"></div>
+        <div id="userInput">
+        </div>
+        <div id="showAnswer"></div>
+    </div>
+    <script src="typingGame.js"></script>
+</body>
+</html>
